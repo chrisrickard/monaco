@@ -1,0 +1,13 @@
+{
+  timespan: 60,
+  cars: [
+    {name: "Nico Alary", sales: "35000"},
+    {name: "Chris Rickard", sales: "15000"},
+    {name: "Monster Man", sales: "45000"},
+    {name: "XFiles", sales: "17000"},
+    {name: "Happy Halloween", sales: "16000"},
+    {name: "The Rock", sales: "12000"},
+    {name: "Mrs. Rock", sales: "5000"},
+    {name: "Albert Einstein", sales: "18000"}
+  ]
+}

@@ -1,0 +1,116 @@
+/***
+ * Monaco CSS
+ * Author: Chris Rickard
+ * Contact: chris.rickad@gmail.com
+ */
+
+
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background: #EEEEEE url('../images/racetrack/grass.gif') repeat top left;
+}
+ 
+body.loading {
+  background: #EEEEEE url('../images/loader.gif') no-repeat center center;
+  text-align: center;
+} 
+
+body.loading .racetrack {
+  display: none;
+} 
+ 
+/**
+ * monaco.widget.Racetrack style
+ */
+.racetrack {
+  width: 840px;
+  height: 100%;
+  text-align: left;
+  margin: 0px auto 0px auto;
+}
+
+
+/* banner */
+.banner {
+  width: 840px;
+  color: white;
+  font-size: 16pt;
+	font-family: "Courier New", Courier, monospace;
+  background-color: #333333;
+  letter-spacing: 5px;
+  padding: 10px 0px 10px 0px;
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
+.banner button {
+  letter-spacing: normal;
+	padding: 8px 20px 8px 20px;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	border-radius: 10px; /* CSS3 */
+	border: solid #DDD 1px;
+}
+
+/* lane container */
+.racetrack .lane_container {
+  height: 85%;
+  background: #EEEEEE url('../images/racetrack/brick.gif') repeat top left;
+  padding-left: 20px;
+}
+
+.racetrack .lane {
+  height: 100%;
+  width: 90px;
+  position: relative;
+  background-color: #606060;
+  float: left;
+  margin: 0px 5px 0px 5px;
+}
+
+/**
+ * monaco.widget.Car style
+ */
+
+.car {
+  position: absolute;
+  width: 90px;
+  height: 73px;
+  margin: 0px auto 0px auto;
+}
+
+.car_1 {
+  background: transparent url('../images/cars/car-1.gif') no-repeat top center;
+}
+
+.car_2 {
+  background: transparent url('../images/cars/car-2.gif') no-repeat top center;
+}
+
+.car_3 {
+  background: transparent url('../images/cars/car-3.gif') no-repeat top center;
+}
+
+.car_4 {
+  background: transparent url('../images/cars/car-4.gif') no-repeat top center;
+}
+
+.car_5 {
+  background: transparent url('../images/cars/car-5.gif') no-repeat top center;
+}
+
+.car_6 {
+  background: transparent url('../images/cars/car-6.gif') no-repeat top center;
+}
+
+.car_7 {
+  background: transparent url('../images/cars/car-7.gif') no-repeat top center;
+}
+
+.car_8 {
+  background: transparent url('../images/cars/car-8.gif') no-repeat top center;
+}
+

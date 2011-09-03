@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>monaco :: dojo demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Chris Rickard" />
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="css/monaco.css" />
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+	 <script type="text/javascript">
+	        var dojoConfig={
+	          parseOnLoad: false,
+	          isDebug: false,
+	          baseUrl: "./",
+	          modulePaths: { monaco: "js/monaco" }
+	        };
+	  </script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dojo/dojo.xd.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    	dojo.require("monaco.Application");
+      dojo.addOnLoad(function(){
+        var app = new monaco.Application();
+      });
+    </script>
+  </head>
+  <body class="loading"></body>
+</html>
